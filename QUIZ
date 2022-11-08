@@ -145,3 +145,70 @@ c) 20 30 40 10
 d) 10 30 40 15
 
 ans = d
+
+Q.11 What are the types of Data Structures?
+Ans. The following are the types of data structures:
+
+i. Lists: A collection of related things linked to the previous or/and following data items.
+
+ii. Arrays: A collection of values that are all the same.
+
+iii. Records: A collection of fields, each of which contains data from a single data type.
+
+iv. Trees: A data structure that organizes data in a hierarchical framework. This form of data structure follows
+the ordered order of data item insertion, deletion, and modification.
+
+v. Tables: The data is saved in the form of rows and columns. These are comparable to records in that the outcome
+or alteration of data is mirrored across the whole table.
+
+Q.12 What is a Linear Data Structure?
+Ans. A data structure is linear if all its elements or data items are arranged in a sequence or a linear order.
+
+Q.13 What is the difference between file structure and storage structure?
+Ans. The difference lies in the memory area accessed. Storage structure refers to the data structure in the memory of the computer system,
+whereas file structure represents the storage structure in the auxiliary memory.
+
+Q.14  What is a linked list Data Structure?
+Ans. It’s a linear Data Structure or a sequence of data objects where elements are not stored in adjacent memory locations.
+The elements are linked using pointers to form a chain.
+
+Q.15 Are linked lists considered linear or non-linear Data Structures?
+Ans. Linked lists are considered both linear and non-linear data structures depending upon the application they are used for.
+
+Q.16  What are the operations that can be performed on a stack?
+Ans. PUSH, POP, PEEK
+
+Q.17 What is a Dequeue?
+It is a double-ended queue, or a data structure, where the elements can be inserted or deleted at both ends (FRONT and REAR).
+
+Q.18 What operations can be performed on queues?
+Ans. i) enqueue() adds an element to the end of the queue
+ii) dequeue() removes an element from the front of the queue
+iii) init() is used for initializing the queue
+iv) isEmpty tests for whether or not the queue is empty
+
+Q.19 Which sorting algorithm is considered the fastest?
+Ans. the QuickSort algorithm is generally considered the fastest because it has the best performance for most inputs.
+
+Q.20 What is the merge sort? How does it work?
+Merge sort is a divide-and-conquer algorithm for sorting the data. It works by merging and sorting adjacent data to create bigger sorted lists,
+which are then merged recursively to form even bigger sorted lists until you have one single sorted list.
+
+Q.21 What are the time and space complexity of Selection sort?
+Ans. Time complexity: best case O(n2); worst O(n2)
+     Space complexity: worst O(1)
+
+Q.22 Differentiate NULL and VOID
+Ans. Null is a value, whereas Void is a data type identifier 
+Null indicates an empty value for a variable, whereas void indicates pointers that have no initial size 
+Null means it never existed; Void means it existed but is not in effect 
+
+Q.23 List out some computer processors
+Ans. Computer processors are: 1) Intel Core i9, 2) Intel Core i5, 3) Intel Core i7, 4) AMD Ryzen 7, and 5) AMD Ryzen 5, 6)Intel i3
+
+Q.24  List out some popular operating system
+Ans. Some popular operating systems are Microsoft Windows, MacOS, and Linux.
+
+Q.25 List out different OOPS principles?
+Ans. The basic OOPS principle are: 1) encapsulation, 2) abstraction, 3) inheritance and 4) polymorphism.
+
