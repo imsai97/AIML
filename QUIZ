@@ -1,1 +1,147 @@
-Q.1)
+Q1.What will be output if you will compile and execute the following c code?
+void main(){
+
+if(printf("cquestionbank"))
+printf("I know c");
+else
+printf("I know c++");
+}
+
+
+A. I know c
+
+B. I know c++
+
+C. cquestionbankI know c
+
+D. cquestionbankI know c++
+
+ans=C
+
+
+Q2. What will be the output of the following statements ?
+
+   int x[4] = {1,2,3};
+   printf("%d %d %D",x[3],x[2],x[1]);
+
+
+A. 03%D
+
+B. 000
+
+C. 032
+
+D. 321
+
+ans=C
+
+
+Q3. What will be the output of the following statement ?
+
+   printf( 3 + "goodbye");
+
+
+A. goodbye
+
+B. odbye
+
+C. bye
+
+D. dbye
+
+ans=D
+
+
+Q4. Consider an implementation of unsorted singly linked list. Suppose it has its representation with a head pointer only. Given the representation, which of the following operation can be implemented in O(1) time?
+
+i) Insertion at the front of the linked list
+ii) Insertion at the end of the linked list
+iii) Deletion of the front node of the linked list
+iv) Deletion of the last node of the linked list
+
+a) I and II
+b) I and III
+c) I, II and III
+d) I, II and IV
+
+ans = b
+
+
+Q5. Consider the following definition in c programming language.
+
+struct node
+{
+    int data;
+    struct node * next;
+}
+typedef struct node NODE;
+NODE *ptr;
+Which of the following c code is used to create new node?
+a) ptr = (NODE*)malloc(sizeof(NODE));
+b) ptr = (NODE*)malloc(NODE);
+c) ptr = (NODE*)malloc(sizeof(NODE*));
+d) ptr = (NODE)malloc(sizeof(NODE));
+
+ans = a
+
+
+Q6. If the elements “A”, “B”, “C” and “D” are placed in a queue and are deleted one at a time, in what order will they be removed?
+a) ABCD
+b) DCBA
+c) DCAB
+d) ABDC
+
+ans = a
+
+Q7. A normal queue, if implemented using an array of size MAX_SIZE, gets full when?
+a) Rear = MAX_SIZE – 1
+b) Front = (rear + 1)mod MAX_SIZE
+c) Front = rear + 1
+d) Rear = front
+
+ans = a
+
+Q8. If the elements “A”, “B”, “C” and “D” are placed in a stack and are deleted one at a time, what is the order of removal?
+a) ABCD
+b) DCBA
+c) DCAB
+d) ABDC
+
+ans = b
+
+Q9. Consider the following operation performed on a stack of size 5.
+Push(1);
+Pop();
+Push(2);
+Push(3);
+Pop();
+Push(4);
+Pop();
+Pop();
+Push(5);
+
+After the completion of all operation, the number of elements present in stack is?
+a) 1
+b) 2
+c) 3
+d) 4
+
+ans = a
+
+Q10. In a Double Ended Queue,After performing these set of operations, what does the final list look contain?
+
+InsertFront(10);
+InsertFront(20);
+InsertRear(30);
+DeleteFront();
+InsertRear(40);
+InsertRear(10);
+DeleteRear();
+InsertRear(15);
+display();
+a) 10 30 10 15
+b) 20 30 40 15
+c) 20 30 40 10
+d) 10 30 40 15
+
+ans = d
