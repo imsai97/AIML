@@ -237,3 +237,250 @@ c. 2
 d. 5
 
 Ans. c
+*--------------------------- YOKESH ------------------------*
+Study the following program:
+
+main()  
+{printf("helloo");  
+main();} 
+ 
+What will be the output of this program?
+
+a Wrong statement
+b It will keep on printing helloo
+c It will Print helloo once
+d None of the these
+
+
+ans B
+
+
+ What is required in each C program?
+
+The program must have at least one function.
+The program does not require any function.
+Input data
+Output data
+ans a
+
+
+
+What will this program print?
+
+main()  
+{  
+  int i = 2;  
+  {  
+    int i = 4, j = 5;  
+     printf("%d %d", i, j);  
+  }    
+  printf("%d %d", i, j);  
+}  
+4525
+2525
+4545
+None of the these
+
+
+ans a
+
+
+
+Study the following program:
+
+main()  
+{  
+   char x [10], *ptr = x;  
+  scanf ("%s", x);  
+  change(&x[4]);  
+}  
+ change(char a[])  
+ {  
+   puts(a);  
+ }  
+If abcdefg is the input, the output will be
+
+abcd
+abc
+efg
+Garbage
+
+ans c
+
+
+What does this declaration mean?
+
+int x : 4;  
+X is a four-digit integer.
+X cannot be greater than a four-digit integer.
+X is a four-bit integer.
+None of the these
+
+
+ans c
+
+
+
+In the C language, the constant is defined _______.
+
+Before main
+After main
+Anywhere, but starting on a new line.
+None of the these.
+
+ans c
+
+
+
+
+
+A pointer is a memory address. Suppose the pointer variable has p address 1000, and that p is declared to have type int*, and an int is 4 bytes long. What address is represented by expression p + 2?
+
+
+1002
+1004
+1006
+1008
+
+ans d
+
+
+
+
+What is the result after execution of the following code if a is 10, b is 5, and c is 10?
+
+If ((a > b) && (a <= c))  
+        a = a + 1;  
+else  
+        c = c+1;  
+a = 10, c = 10
+a = 11, c = 10
+a = 10, c = 11
+a = 11, c = 11
+
+
+ans b
+
+
+
+
+What will the result of num1 variable after execution of the following statements?
+
+int j = 1, num1 = 4;  
+while (++j <= 10)  
+{  
+  num1++;  
+}  
+11
+12
+13
+14
+
+ans c
+
+
+
+
+Choose correct output for the following sequence of operations.
+
+push(5) 
+push(8) 
+pop 
+push(2) 
+push(5) 
+pop 
+pop 
+pop 
+push(1) 
+pop
+a) 8 5 2 5 1
+b) 8 5 5 2 1
+c) 8 2 5 5 1
+d) 8 1 2 5 5
+
+ans a
+
+
+
+
+
+Stack can be implemented using _________ and ________ ?
+
+a) Array and Binary Tree
+b) Linked List and Graph
+c) Array and Linked List
+d) Queue and Linked List
+
+
+ans c
+
+
+
+
+
+
+ A stack data structure cannot be used for
+
+a) Implementation of Recursive Function
+b) Allocation Resources and Scheduling
+c) Reversing string
+d) Evaluation of string in postfix form
+
+
+ans b
+
+*--------------------------------SHALINI-------------------------*
+1.Which of the following is not a valid C variable name? [d]
+a) int number;
+b) float rate;
+c) int variable_count;
+d) int $main;
+2.Which keyword is used to prevent any changes in the variable within a C program? [c]
+a) immutable
+b) mutable
+c) const
+d) volatile
+3.Functions can return enumeration constants in C? [a]
+a) true
+b) false
+c) depends on the compiler
+d) depends on the standard
+4.Property which allows to produce different executable for different platforms in C is called? [c]
+a) File inclusion
+b) Selective inclusion
+c) Conditional compilation
+d) Recursive macros
+5.What is the standard header _______ is used for variable list arguments (…) in C? [b]
+a) <stdio.h >
+b) <stdarg.h>
+c) <math.h>
+d) <stdlib.h>
+6.What is the problem in the following C declarations? [d]
+
+   int func(int);
+   double func(int);
+   int func(float);
+a) A function with same name cannot have different signatures
+b) A function with same name cannot have different return types
+c) A function with same name cannot have different number of parameters
+d) All of the mentioned
+7.What is the extension of a C language source file? [a]
+a).c
+b).cpp
+c).c99
+d).h
+8)How many byte(s) does a char type take in C? [a]
+a)1
+b)2
+c)3
+d)4
+9.The short type represents ___. [c]
+a)int
+b)float
+c)unsigned int
+d)short int
+10.The concept of two functions with same name is know as? [b]
+a) Operator Overloading
+b) Function Overloading
+c) Function Overriding
+d) Function renaming
